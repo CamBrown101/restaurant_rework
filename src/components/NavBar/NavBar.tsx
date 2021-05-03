@@ -1,39 +1,33 @@
 import React from "react";
 import styled from "styled-components";
-import Logo from "../../images/AcclamationLogo.png";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <NavBarContainer>
       <NavBarWrapper>
-        <NavLink className="nav-menu-item" id="nav-menu-home" exact to="/">
-          <img className="logo" alt="Acclamation Logo" src={Logo}></img>
-        </NavLink>
+        <NavLink
+          className="nav-menu-item"
+          id="nav-menu-home"
+          exact
+          to="/"></NavLink>
         <div className="nav-inner-container">
           <div className="nav-btns">
             <NavLink
               className="nav-menu-item"
               id="nav-menu-why-acclamation"
               exact
-              to="/Why-Acclamation">
-              Why Acclamation
-            </NavLink>
-            <NavLink
-              className="nav-menu-item"
-              id="nav-menu-how-we-work"
-              exact
-              to="/How-We-Work">
-              How We Work
+              to="/View-Menu">
+              View Menu
             </NavLink>
           </div>
-          <NavLink
+          {/* <NavLink
             className="nav-menu-item"
             id="nav-menu-evolve-with-us"
             exact
             to="https://forms.gle/ZaZhfMSeV9QxgnNcA">
             Evolve With Us
-          </NavLink>
+          </NavLink> */}
         </div>
       </NavBarWrapper>
     </NavBarContainer>
