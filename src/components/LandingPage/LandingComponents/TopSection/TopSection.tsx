@@ -1,8 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import backgroundImage from "../../../../images/WebsiteHEader.png";
-
-const computerBottleImg = backgroundImage;
 
 const HomePage = () => {
   return (
@@ -50,7 +47,6 @@ const AboutContainer = styled.header`
   }
 `;
 const AboutContainerInner = styled.div`
-  background-image: url(${computerBottleImg});
   background-repeat: no-repeat;
   background-size: 600px;
   background-position-x: right;
