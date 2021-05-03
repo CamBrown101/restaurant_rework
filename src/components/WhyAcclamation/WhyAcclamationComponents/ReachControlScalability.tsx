@@ -1,8 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import reachIcon from "../../../images/reach-icon.svg";
-import controlIcon from "../../../images/control-icon.svg";
-import scalabilityIcon from "../../../images/scalability-icon.svg";
 
 const FromConcept = () => {
   return (
@@ -11,7 +8,6 @@ const FromConcept = () => {
         <ListContainer>
           <Lists>
             <div className="list-titles">
-              <img src={controlIcon} alt="Control Icon" className="image"></img>
               <h5>CONTROL</h5>
             </div>
             <li>
@@ -25,7 +21,6 @@ const FromConcept = () => {
           </Lists>
           <Lists>
             <div className="list-titles">
-              <img src={reachIcon} alt="Reach Icon" className="image"></img>
               <h5>REACH</h5>
             </div>
             <li>
@@ -44,10 +39,7 @@ const FromConcept = () => {
 
           <Lists>
             <div className="list-titles">
-              <img
-                src={scalabilityIcon}
-                alt="Scalability Icon"
-                className="image"></img>
+              <img alt="Scalability Icon" className="image"></img>
               <h5>SCALABILITY</h5>
             </div>
             <li>Monetize traffic from social media leads</li>
