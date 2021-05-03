@@ -11,9 +11,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={LandingPage} />
-        <Route path="/Why-Acclamation" exact component={WhyAcclamation} />
-        <Route path="/How-We-Work" exact component={HowWeWork} />
-        <Route path="/Privacy-Policy" exact component={PrivacyPolicy} />
+        <Route path="/View-Menu" exact component={WhyAcclamation} />
       </Switch>
       <NavBar />
     </Router>
