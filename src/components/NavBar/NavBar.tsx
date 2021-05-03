@@ -20,13 +20,6 @@ const NavBar = () => {
               View Menu
             </NavLink>
           </div>
-          {/* <NavLink
-            className="nav-menu-item"
-            id="nav-menu-evolve-with-us"
-            exact
-            to="https://forms.gle/ZaZhfMSeV9QxgnNcA">
-            Evolve With Us
-          </NavLink> */}
         </div>
       </NavBarWrapper>
     </NavBarContainer>
@@ -79,7 +72,7 @@ const NavBarWrapper = styled.nav`
 
   #nav-menu-view-menu {
     color: #b96140;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 900;
     font-size: 30px;
     letter-spacing: 1px;
