@@ -1,21 +1,20 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import NavLogo from "../../images/Riva-Logo-Horizontal-Teal.png";
 
 const NavBar = () => {
   return (
     <NavBarContainer>
       <NavBarWrapper>
-        <NavLink
-          className="nav-menu-item"
-          id="nav-menu-home"
-          exact
-          to="/"></NavLink>
+        <NavLink className="nav-menu-item" id="nav-menu-home" exact to="/">
+          <img className="logo" src={NavLogo} />
+        </NavLink>
         <div className="nav-inner-container">
           <div className="nav-btns">
             <NavLink
               className="nav-menu-item"
-              id="nav-menu-why-acclamation"
+              id="nav-menu-view-menu"
               exact
               to="/View-Menu">
               View Menu
@@ -39,7 +38,7 @@ export default NavBar;
 const NavBarContainer = styled.div`
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: white;
   width: 100%;
   top: 0;
   position: fixed;
@@ -51,18 +50,14 @@ const NavBarWrapper = styled.nav`
   width: 100%;
   max-width: 1400px;
   padding: 15px 2% 10px;
-  background-color: black;
-  border-bottom: 1px solid #463c30;
+  background-color: white;
   color: white;
   width: 90%;
 
   .logo {
-    height: 70px;
+    height: 90px;
     padding-right: 20px;
     margin-right: 20px;
-    border-right: 1px solid #424242;
-    filter: invert(15%) sepia(6%) saturate(1341%) hue-rotate(353deg)
-      brightness(83%) contrast(84%);
   }
   .nav-btns {
     margin-top: 15px;
@@ -81,25 +76,16 @@ const NavBarWrapper = styled.nav`
     color: inherit;
     transition: color 0.8s;
   }
-  a:hover {
-    color: #b09a7f;
-  }
-  #nav-menu-why-acclamation,
-  #nav-menu-how-we-work,
-  #nav-menu-evolve-with-us {
-    margin-right: 25px;
+
+  #nav-menu-view-menu {
+    color: #b96140;
     font-family: "Work Sans", sans-serif;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  #nav-menu-evolve-with-us {
-    margin-top: 15px;
-    color: #b09a7f;
-    transition: color 0.8s;
-  }
-  #nav-menu-evolve-with-us:hover {
-    color: white;
+  #nav-menu-view-menu:hover {
+    color: #00a79d;
   }
 `;
