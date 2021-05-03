@@ -9,13 +9,15 @@ const LandingPage = () => {
   return (
     <Wrapper>
       <TopSection />
-      <FromConcept />
-      <Carousel interval={7000} numberOfSlides={4} />
       <Footer />
     </Wrapper>
   );
 };
 
+const red = `#B96140`;
+const blue = `#00A79D`;
+const black = `#000000`;
+const white = `#FFFFFF`;
 const Wrapper = styled.div`
   font-family: "Work Sans", sans-serif;
   max-width: 100%;
