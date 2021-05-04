@@ -16,10 +16,10 @@ const LandingPage = () => {
   );
 };
 
-const red = `#B96140`;
-const blue = `#00A79D`;
-const black = `#000000`;
-const white = `#FFFFFF`;
+// const red = `#B96140`;
+// const blue = `#00A79D`;
+// const black = `#000000`;
+// const white = `#FFFFFF`;
 const Wrapper = styled.div`
   font-family: "Work Sans", sans-serif;
   max-width: 100%;
