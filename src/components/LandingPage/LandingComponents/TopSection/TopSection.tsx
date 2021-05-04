@@ -34,7 +34,7 @@ const AboutContainerInner = styled.div`
   align-items: center;
 
   .logo {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.35);
     height: 60%;
     width: 30%;
     padding: 20px;

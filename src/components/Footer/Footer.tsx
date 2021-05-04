@@ -10,17 +10,21 @@ const Footer = () => {
       <FooterWrapper>
         <TopFooterContainer>
           <div className="contact">
-            <h3>Riva</h3>
-            <p className="hours">Hours - Opens at 11am 7 days a week</p>
+            <h3>Address</h3>
+            <p className="adress">2537 Beacon Ave W #107, Sidney, BC V8L 1Y3</p>
             <a className="phone" href="tel:+1-250-656-6690">
               Phone Number - (250) 656-6690
             </a>
+            <h3>Hours</h3>
+            <p className="hours">Hours - Opens at 11am 7 days a week</p>
             <p className="copyright">
               ©{date.getFullYear()} Riva All Rights Reserved.
             </p>
           </div>
           <div className="site-links">
-            <Link to="/View-Menu">View Menu</Link>
+            <Link to="/View-Menu">
+              <button>View menu</button>
+            </Link>
           </div>
         </TopFooterContainer>
       </FooterWrapper>
@@ -36,7 +40,7 @@ const FooterContainer = styled.footer`
 `;
 
 const FooterWrapper = styled.div`
-  padding-top: 70px;
+  padding-top: 40px;
   padding-bottom: 70px;
   width: 90%;
   max-width: 1400px;
@@ -50,70 +54,63 @@ const FooterWrapper = styled.div`
     text-decoration: none;
     color: inherit;
   }
-  .logo {
-    height: 75px;
-    filter: invert(15%) sepia(6%) saturate(1341%) hue-rotate(353deg)
-      brightness(83%) contrast(84%);
-  }
 `;
 
 const TopFooterContainer = styled.div`
   background: black;
-  padding-top: 50px;
+  padding-top: 20px;
   margin-left: 2%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   .contact {
     display: flex;
     flex-direction: column;
+
     h3 {
-      font-family: "Quentin", sans-serif;
-      font-size: 25px;
-      margin: 3px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 900;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 2px;
       color: white;
     }
-    p {
-      font-family: "Work Sans", sans-serif;
+
+    .copyright {
+      color: #93969b;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    .adress,
+    .phone,
+    .hours {
+      font-size: 20px;
+      font-family: "Raleway", sans-serif;
       margin: 2px;
     }
-    .copyright {
-      margin-top: 21px;
-      color: #93969b;
-      font-size: 13px;
-    }
-    .email,
-    .phone {
-      font-size: 13px;
-    }
-    .email {
-      color: #b09a7f;
-    }
-  }
-
-  .site-links,
-  .contact-us {
-    display: flex;
-    flex-direction: column;
-    font-family: "Work Sans", sans-serif;
-    font-size: 16px;
-    color: #b09a7f;
-    font-weight: 900;
-    margin-top: 90px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
   }
   .site-links {
-    text-align: center;
-  }
-  .contact-us {
-    text-align: right;
-    margin-right: 2%;
-    h4 {
-      margin: 0;
+    margin-right: 150px;
+
+    button {
+      margin-bottom: 20px;
+      margin-top: 30px;
+      color: #fff;
+      letter-spacing: 1px;
+      font-family: "Raleway", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      background-color: #b96140;
+      padding: 9px 15px;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: 0;
+      transition: background-color 0.8s;
     }
-    a {
-      color: white;
+    button:hover {
+      background-color: #00a79d;
     }
   }
 `;
