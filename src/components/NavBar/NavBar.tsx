@@ -53,7 +53,8 @@ const NavBarWrapper = styled.nav`
     margin-right: 20px;
   }
   .nav-btns {
-    margin-top: 15px;
+    display: flex;
+    align-items: center;
   }
   .nav-inner-container {
     width: 100%;
