@@ -1,7 +1,5 @@
 import React from "react";
 import TopSection from "./LandingComponents/TopSection/TopSection";
-import FromConcept from "./LandingComponents/FromConcept/FromConcept";
-import Carousel from "../Carousel/Carousel";
 import Footer from "../Footer/Footer";
 import styled from "styled-components";
 
