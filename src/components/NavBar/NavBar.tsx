@@ -8,7 +8,7 @@ const NavBar = () => {
     <NavBarContainer>
       <NavBarWrapper>
         <NavLink className="nav-menu-item" id="nav-menu-home" exact to="/">
-          <img className="logo" src={NavLogo} />
+          <img className="logo" src={NavLogo} alt="Riva teal logo" />
         </NavLink>
         <div className="nav-inner-container">
           <div className="nav-btns">
