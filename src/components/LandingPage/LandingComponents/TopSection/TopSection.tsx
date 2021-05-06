@@ -34,9 +34,9 @@ const AboutContainerInner = styled.div`
   align-items: center;
 
   .logo {
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.65);
     height: 60%;
-    width: 30%;
+    width: auto;
     padding: 20px;
   }
 `;
