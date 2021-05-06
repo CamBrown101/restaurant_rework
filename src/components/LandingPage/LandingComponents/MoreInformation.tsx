@@ -18,7 +18,8 @@ const MoreInformation = () => {
 
 const MoreInfoWrapper = styled.section`
   background-image: url(${barImage});
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 700px;
