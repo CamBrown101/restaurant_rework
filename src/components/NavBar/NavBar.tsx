@@ -72,14 +72,14 @@ const NavBarWrapper = styled.nav`
   }
 
   #nav-menu-view-menu {
-    color: #b96140;
+    color: #00a79d;
     font-family: "Raleway", sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
   #nav-menu-view-menu:hover {
-    color: #00a79d;
+    color: #b96140;
   }
 `;
