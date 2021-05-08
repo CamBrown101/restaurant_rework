@@ -34,17 +34,22 @@ const AboutContainer = styled.section`
 const AboutContainerInner = styled.div`
   width: 70%;
   margin: 50px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #b96140;
 
   button {
     margin-bottom: 20px;
     margin-top: 30px;
+    width: 30%;
     color: #fff;
     letter-spacing: 1px;
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    background-color: #b96140;
+    background-color: #00a79d;
     padding: 9px 15px;
     text-transform: uppercase;
     cursor: pointer;
@@ -52,7 +57,6 @@ const AboutContainerInner = styled.div`
     transition: background-color 0.8s;
   }
   button:hover {
-    background-color: #00a79d;
   }
 
   .about-content {
