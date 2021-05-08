@@ -54,6 +54,12 @@ const AboutContainerInner = styled.div`
   button:hover {
     background-color: #00a79d;
   }
+
+  .about-content {
+    text-align: center;
+    font-weight: 500;
+    color: #b96140;
+  }
 `;
 
 export default About;
