@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import NavLogo from "../../images/Riva-Logo-Horizontal-Teal.png";
+// import NavLogo from "../../images/Riva-Logo-Horizontal-Teal.png";
+import NavLogo from "../../images/Riva-Logo-Horizontal-FullColour.png";
 
 const NavBar = () => {
   return (
