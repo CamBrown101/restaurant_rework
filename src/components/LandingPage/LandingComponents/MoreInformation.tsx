@@ -34,7 +34,7 @@ const MoreInfoWrapper = styled.section`
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    background-color: #b96140;
+    background-color: #00a79d;
     padding: 9px 15px;
     text-transform: uppercase;
     cursor: pointer;
@@ -43,15 +43,16 @@ const MoreInfoWrapper = styled.section`
     width: 200px;
   }
   button:hover {
-    background-color: #00a79d;
+    background-color: #b96140;
   }
 
   .content {
+    color: #b96140;
+
     h2 {
       font-size: 40px;
       font-weight: 700;
       line-height: 50px;
-      color: black;
       font-family: "Raleway", sans-serif;
       margin: 0;
     }
