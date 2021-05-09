@@ -30,7 +30,7 @@ const MoreInfoWrapper = styled.section`
     margin-top: 30px;
     color: #fff;
     letter-spacing: 1px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Forum", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -53,11 +53,11 @@ const MoreInfoWrapper = styled.section`
       font-size: 40px;
       font-weight: 700;
       line-height: 50px;
-      font-family: "Raleway", sans-serif;
+      font-family: "Forum", sans-serif;
       margin: 0;
     }
     p {
-      font-family: "Raleway", sans-serif;
+      font-family: "Forum", sans-serif;
       font-size: 30px;
     }
 
