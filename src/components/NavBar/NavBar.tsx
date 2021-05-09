@@ -74,8 +74,8 @@ const NavBarWrapper = styled.nav`
 
   #nav-menu-view-menu {
     color: #00a79d;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+    font-family: "Forum", sans-serif;
+    font-weight: 900;
     font-size: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
