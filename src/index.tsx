@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "typeface-raleway";
+import "typeface-josefin-sans";
+import "typeface-forum";
 
 ReactDOM.render(
   <React.StrictMode>
