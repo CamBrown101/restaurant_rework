@@ -69,7 +69,7 @@ const TopFooterContainer = styled.div`
     flex-direction: column;
 
     h3 {
-      font-family: "Raleway", sans-serif;
+      font-family: "Forum", sans-serif;
       font-weight: 900;
       font-size: 30px;
       margin-top: 20px;
@@ -86,7 +86,7 @@ const TopFooterContainer = styled.div`
     .phone,
     .hours {
       font-size: 20px;
-      font-family: "Raleway", sans-serif;
+      font-family: "Forum", sans-serif;
       margin: 2px;
     }
   }
@@ -98,7 +98,7 @@ const TopFooterContainer = styled.div`
       margin-top: 30px;
       color: #fff;
       letter-spacing: 1px;
-      font-family: "Raleway", sans-serif;
+      font-family: "Forum", sans-serif;
       font-size: 24px;
       font-weight: 700;
       line-height: 32px;
