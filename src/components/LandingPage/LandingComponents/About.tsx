@@ -24,7 +24,7 @@ const AboutContainer = styled.section`
   font-weight: 700;
   line-height: 50px;
   color: black;
-  font-family: "Raleway", sans-serif;
+  font-family: "", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,7 +45,7 @@ const AboutContainerInner = styled.div`
     width: 30%;
     color: #fff;
     letter-spacing: 1px;
-    font-family: "Raleway", sans-serif;
+    font-family: "forum", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -62,7 +62,8 @@ const AboutContainerInner = styled.div`
   .about-content {
     text-align: center;
     font-weight: 500;
-    color: #b96140;
+    font-family: Josefin-sans, "sans-sarif";
+    color: ;
   }
 `;
 
