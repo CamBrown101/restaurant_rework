@@ -1,13 +1,24 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "Montecatini Pro Normale";
+  src: url("./fonts/MontecatiniPro-Normale.eot");
+  src: local("./fonts/Montecatini Pro Normale"), local("MontecatiniPro-Normale"),
+    url("./fonts/MontecatiniPro-Normale.woff2") format("woff2"),
+    url("./fonts/MontecatiniPro-Normale.woff") format("woff"),
+    url("./fonts/MontecatiniPro-Normale.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
