@@ -30,14 +30,14 @@ const NavBar = () => {
               className="nav-menu-item"
               id="reservations"
               exact
-              to="/reservations">
+              to="/Reservations">
               Reservations
             </NavLink>
             <NavLink
               className="nav-menu-item"
               id="order-online"
               exact
-              to="/order-online">
+              to="/Order-Online">
               Order Online
             </NavLink>
           </div>
