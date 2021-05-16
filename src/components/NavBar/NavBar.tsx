@@ -39,13 +39,14 @@ const NavBar = () => {
               to="/Order-Online">
               Order Online
             </NavLink>
-            <Link
+            <NavLink
               className="nav-menu-item"
+              id="takeout-menu"
               to="Riva-Menu-Takeout.pdf"
               target="_blank"
               download>
-              Download Takeout Menu
-            </Link>
+              Takeout Menu
+            </NavLink>
           </div>
         </div>
       </NavBarWrapper>
