@@ -22,15 +22,13 @@ const createCircles = (totalSlides: number, slideNumber: number) => {
   return arrayOfCircles;
 };
 
-const People = ({ slide, numberOfSlides, image, alt }: Props) => {
+const Slide = ({ slide, numberOfSlides, image, alt }: Props) => {
+  console.log(image);
+
   return (
     <SlideWrapper>
-      <div className="slide-container">
-        <img src={image} alt={alt} />
-        <CircleContainer>
-          {createCircles(numberOfSlides, slide)}
-        </CircleContainer>
-      </div>
+      <SlideInnerWrapper imageUrl={image}></SlideInnerWrapper>
+      <CircleContainer>{createCircles(numberOfSlides, slide)}</CircleContainer>
     </SlideWrapper>
   );
 };
@@ -40,25 +38,35 @@ const People = ({ slide, numberOfSlides, image, alt }: Props) => {
 const SlideWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  height: 600px;
+  height: 2800px;
   width: 100%;
   color: white;
-  background-color: black;
+  background-color: white;
+  padding-top: 1250px;
 
   img {
     width: 300px;
     height: auto;
   }
-  .slide-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    height: 100%;
-  }
+`;
+
+type SlideProps = {
+  imageUrl: string;
+};
+const SlideInnerWrapper: any = styled.div<SlideProps>`
+  background-image: url(${(props) => props.imageUrl});
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+  height: 100%;
 `;
 
 const CircleContainer = styled.div`
@@ -73,7 +81,7 @@ const CircleContainer = styled.div`
     margin-right: 10px;
   }
   .current {
-    color: white;
+    color: black;
   }
 `;
-export default People;
+export default Slide;
