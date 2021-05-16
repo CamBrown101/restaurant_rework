@@ -2,55 +2,25 @@ import React, { useState, useEffect } from "react";
 import SlideTemplate from "../Carousel/SlideTemplate";
 import CarouselButton from "../Carousel/CarouselButton";
 import styled from "styled-components";
-import drinkMenu1 from "../../images/menus/Riva-Menu-Food3.png";
-import drinkMenu2 from "../../images/menus/Riva-Menu-Food4.png";
-import drinkMenu3 from "../../images/menus/Riva-Menu-Wine1.png";
-import drinkMenu4 from "../../images/menus/Riva-Menu-Wine1.png";
-import drinkMenu5 from "../../images/menus/Riva-Menu-Wine2.png";
-import drinkMenu6 from "../../images/menus/Riva-Menu-Wine3.png";
-import drinkMenu7 from "../../images/menus/Riva-Menu-Wine4.png";
 
 type Props = {
   interval: number;
   numberOfSlides: number;
+  data: any[];
 };
 
-const slideData = [
-  {
-    imageUrl: drinkMenu1,
-  },
-  {
-    imageUrl: drinkMenu2,
-  },
-  {
-    imageUrl: drinkMenu3,
-  },
-  {
-    imageUrl: drinkMenu4,
-  },
-  {
-    imageUrl: drinkMenu5,
-  },
-  {
-    imageUrl: drinkMenu6,
-  },
-  {
-    imageUrl: drinkMenu7,
-  },
-];
-
-const slidesArray = slideData.map((slide, index) => {
-  return (
-    <SlideTemplate
-      key={index}
-      numberOfSlides={slideData.length}
-      slide={index}
-      image={imageUrl}
-    />
-  );
-});
-
-const Carousel = ({ interval, numberOfSlides }: Props) => {
+const Carousel = ({ interval, numberOfSlides, data }: Props) => {
+  const slidesArray = data.map((slide, index) => {
+    return (
+      <SlideTemplate
+        key={index}
+        numberOfSlides={data.length}
+        slide={index}
+        image={slide.imageUrl}
+        alt={slide.altText}
+      />
+    );
+  });
   const [slide, setSlide] = useState(0);
 
   const nextSlide = () => {
@@ -103,7 +73,8 @@ const ButtonContainer = styled.div`
 const CarouselContainer = styled.div`
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: white;
+  width: 100%;
 `;
 
 const CarouselContainerInner = styled.div`
