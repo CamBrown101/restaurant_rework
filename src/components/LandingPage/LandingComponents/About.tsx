@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const About = () => {
@@ -12,7 +13,9 @@ const About = () => {
           a sweeping oceanfront patio combined with true Italian inspired menus
           and unpretentious service, Riva is an evolution of dining in Sidney.
         </p>
-        <button>View Menu</button>
+        <button>
+          <Link to="/View-Food-Menu">View Menu</Link>
+        </button>
       </AboutContainerInner>
     </AboutContainer>
   );
@@ -57,6 +60,13 @@ const AboutContainerInner = styled.div`
     transition: background-color 0.8s;
   }
   button:hover {
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 24px;
   }
 
   .about-content {
