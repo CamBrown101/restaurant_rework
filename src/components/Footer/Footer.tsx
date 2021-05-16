@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="site-links">
-            <Link to="/View-Menu">
+            <Link to="/View-Food-Menu">
               <button>View menu</button>
             </Link>
           </div>
