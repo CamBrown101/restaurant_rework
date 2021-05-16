@@ -17,7 +17,7 @@ const CarouselButton = ({ direction, onClick }: Props) => {
 };
 
 const Button = styled.button`
-  color: white;
+  color: black;
   border: none;
   width: 80px;
   padding: 0;
