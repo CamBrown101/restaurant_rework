@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import bayView from "../../../../images/bayView.jpg";
+import bayView from "../../../../images/heroImage001.jpg";
 import fullColorLogo from "../../../../images/Riva-Icon-FullColour-trimmed.png";
 
 const HomePage = () => {
   return (
     <AboutContainer>
       <AboutContainerInner>
-        <img className="logo" src={fullColorLogo} alt="Riva logo" />
+        {/* <img className="logo" src={fullColorLogo} alt="Riva logo" /> */}
       </AboutContainerInner>
     </AboutContainer>
   );
