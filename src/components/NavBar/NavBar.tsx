@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-// import NavLogo from "../../images/Riva-Logo-Horizontal-Teal.png";
 import NavLogo from "../../images/Riva-Logo-Horizontal-FullColour.png";
 
 const NavBar = () => {
@@ -15,10 +14,31 @@ const NavBar = () => {
           <div className="nav-btns">
             <NavLink
               className="nav-menu-item"
-              id="nav-menu-view-menu"
+              id="nav-menu-view-food"
               exact
-              to="/View-Menu">
-              View Menu
+              to="/View-Food-Menu">
+              Food
+            </NavLink>
+            <NavLink
+              className="nav-menu-item"
+              id="nav-menu-view-drink"
+              exact
+              to="/View-Drink-Menu">
+              Drink
+            </NavLink>
+            <NavLink
+              className="nav-menu-item"
+              id="reservations"
+              exact
+              to="/reservations">
+              Reservations
+            </NavLink>
+            <NavLink
+              className="nav-menu-item"
+              id="order-online"
+              exact
+              to="/order-online">
+              Order Online
             </NavLink>
           </div>
         </div>
@@ -72,7 +92,8 @@ const NavBarWrapper = styled.nav`
     transition: color 0.8s;
   }
 
-  #nav-menu-view-menu {
+  .nav-menu-item {
+    margin-right: 20px;
     color: #00a79d;
     font-family: "Montecatini Pro Normale", sans-serif;
     font-weight: 900;
@@ -80,7 +101,7 @@ const NavBarWrapper = styled.nav`
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  #nav-menu-view-menu:hover {
+  .nav-menu-item:hover {
     color: #b96140;
   }
 `;
