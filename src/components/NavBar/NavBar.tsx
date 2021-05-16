@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import NavLogo from "../../images/Riva-Logo-Horizontal-FullColour.png";
-
 const NavBar = () => {
   return (
     <NavBarContainer>
@@ -40,6 +39,13 @@ const NavBar = () => {
               to="/Order-Online">
               Order Online
             </NavLink>
+            <Link
+              className="nav-menu-item"
+              to="Riva-Menu-Takeout.pdf"
+              target="_blank"
+              download>
+              Download Takeout Menu
+            </Link>
           </div>
         </div>
       </NavBarWrapper>
@@ -65,7 +71,7 @@ const NavBarWrapper = styled.nav`
   max-width: 1400px;
   padding: 15px 2% 10px;
   background-color: white;
-  color: white;
+  color: #00a79d;
   width: 90%;
 
   .logo {
@@ -84,12 +90,15 @@ const NavBarWrapper = styled.nav`
     justify-content: space-between;
   }
   a,
-  a:hover,
+  a:visited,
   a:focus,
   a:active {
     text-decoration: none;
     color: inherit;
     transition: color 0.8s;
+  }
+  a:hover {
+    color: #b96140;
   }
 
   .nav-menu-item {
