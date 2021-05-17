@@ -9,7 +9,7 @@ const About = () => {
         <p className="about-content">
           Riva Sidney is a reimagining of the long-standing Beacon Landing
           Restaurant into a new Mediterranean dining experience for the people
-          of Vancouver Island, and it’s visitors. With beautiful seascape views,
+          of Vancouver Island, and its visitors. With beautiful seascape views,
           a sweeping oceanfront patio combined with true Italian inspired menus
           and unpretentious service, Riva is an evolution of dining in Sidney.
         </p>
