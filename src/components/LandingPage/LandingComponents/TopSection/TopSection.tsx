@@ -1,14 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import bayView from "../../../../images/heroImage001.jpg";
-import fullColorLogo from "../../../../images/Riva-Icon-FullColour-trimmed.png";
+import bayView2 from "../../../../images/heroImage001.jpg";
 
 const HomePage = () => {
   return (
     <AboutContainer>
-      <AboutContainerInner>
-        {/* <img className="logo" src={fullColorLogo} alt="Riva logo" /> */}
-      </AboutContainerInner>
+      <AboutContainerInner></AboutContainerInner>
     </AboutContainer>
   );
 };
@@ -23,7 +20,7 @@ const AboutContainer = styled.header`
   align-items: center;
 `;
 const AboutContainerInner = styled.div`
-  background-image: url(${bayView});
+  background-image: url(${bayView2});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
