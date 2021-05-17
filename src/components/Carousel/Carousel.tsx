@@ -39,12 +39,12 @@ const Carousel = ({ interval, numberOfSlides, data }: Props) => {
     }
   };
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      nextSlide();
-    }, interval);
-    return () => clearTimeout(timer);
-  });
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     nextSlide();
+  //   }, interval);
+  //   return () => clearTimeout(timer);
+  // });
 
   return (
     <CarouselContainer>
