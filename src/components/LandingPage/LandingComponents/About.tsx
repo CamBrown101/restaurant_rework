@@ -73,7 +73,6 @@ const AboutContainerInner = styled.div`
     text-align: center;
     font-weight: 500;
     font-family: Josefin-sans, "sans-sarif";
-    color: ;
   }
 `;
 
