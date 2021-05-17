@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import SlideTemplate from "../Carousel/SlideTemplate";
 import CarouselButton from "../Carousel/CarouselButton";
 import styled from "styled-components";
