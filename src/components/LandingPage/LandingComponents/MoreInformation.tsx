@@ -57,7 +57,8 @@ const MoreInfoWrapper = styled.section`
       margin: 0;
     }
     p {
-      font-family: "Forum", sans-serif;
+      font-weight: 500;
+      font-family: Josefin-sans, "sans-sarif";
       font-size: 30px;
     }
 

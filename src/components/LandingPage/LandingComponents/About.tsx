@@ -60,6 +60,7 @@ const AboutContainerInner = styled.div`
     transition: background-color 0.8s;
   }
   button:hover {
+    background-color: #b96140;
   }
   a {
     text-decoration: none;

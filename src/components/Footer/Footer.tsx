@@ -69,7 +69,7 @@ const TopFooterContainer = styled.div`
     flex-direction: column;
 
     h3 {
-      font-family: "Forum", sans-serif;
+      font-family: Josefin-sans, "sans-sarif";
       font-weight: 900;
       font-size: 30px;
       margin-top: 20px;
@@ -86,7 +86,7 @@ const TopFooterContainer = styled.div`
     .phone,
     .hours {
       font-size: 20px;
-      font-family: "Forum", sans-serif;
+      font-family: Josefin-sans, "sans-sarif";
       margin: 2px;
     }
   }
