@@ -40,11 +40,11 @@ const SlideWrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 2800px;
+  height: 2100px;
   width: 100%;
   color: white;
   background-color: white;
-  padding-top: 1250px;
+  padding-top: 600px;
 
   img {
     width: 300px;
@@ -65,7 +65,7 @@ const SlideInnerWrapper: any = styled.div<SlideProps>`
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  width: 80%;
+  width: 60%;
   height: 100%;
 `;
 
