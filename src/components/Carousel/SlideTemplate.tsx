@@ -27,7 +27,9 @@ const Slide = ({ slide, numberOfSlides, image, alt }: Props) => {
 
   return (
     <SlideWrapper>
-      <SlideInnerWrapper imageUrl={image}></SlideInnerWrapper>
+      <SlideInnerWrapper>
+        <img src={image} />
+      </SlideInnerWrapper>
       <CircleContainer>{createCircles(numberOfSlides, slide)}</CircleContainer>
     </SlideWrapper>
   );
@@ -40,11 +42,10 @@ const SlideWrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 2100px;
+  height: 700px;
   width: 100%;
   color: white;
   background-color: white;
-  padding-top: 600px;
 
   img {
     width: 300px;

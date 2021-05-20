@@ -33,9 +33,9 @@ const FoodMenu = () => {
 export default FoodMenu;
 
 const FoodMenuWrapper = styled.main`
-  width: 100%;
-  height: 700px;
-  padding-top: 500px;
+  width: auto;
+  height: 100%;
+  padding-top: 210px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,6 @@ const FoodMenuWrapper = styled.main`
 
 const FoodMenuContainerInner = styled.div`
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

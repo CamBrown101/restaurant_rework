@@ -48,9 +48,9 @@ const DrinkMenu = () => {
 export default DrinkMenu;
 
 const DrinkMenuWrapper = styled.main`
-  width: 100%;
-  height: 700px;
-  padding-top: 500px;
+  width: auto;
+  height: 100%;
+  padding-top: 210px;
   display: flex;
   justify-content: center;
   align-items: center;
