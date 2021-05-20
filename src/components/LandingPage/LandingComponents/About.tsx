@@ -7,10 +7,9 @@ const About = () => {
     <AboutContainer>
       <AboutContainerInner>
         <p className="about-content">
-          Riva Sidney is a reimagining of the long-standing Beacon Landing
-          Restaurant into a new Mediterranean dining experience for the people
-          of Vancouver Island, and its visitors. With beautiful seascape views,
-          a sweeping oceanfront patio combined with true Italian inspired menus
+          Riva Sidney is a new Mediterranean dining experience for the people of
+          Vancouver Island, and its visitors. With beautiful seascape views, a
+          sweeping oceanfront patio combined with true Italian inspired menus
           and unpretentious service, Riva is an evolution of dining in Sidney.
         </p>
         <button>
