@@ -63,6 +63,9 @@ const NavBarContainer = styled.div`
   width: 100%;
   top: 0;
   position: fixed;
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 const NavBarWrapper = styled.nav`
@@ -110,8 +113,53 @@ const NavBarWrapper = styled.nav`
     font-size: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-align: center;
   }
   .nav-menu-item:hover {
     color: #b96140;
+  }
+  @media screen and (max-width: 900px) {
+    .nav-menu-item {
+      font-size: 20px;
+      margin-right: 15px;
+    }
+    height: 80px;
+    padding-right: 15px;
+    margin-right: 20px;
+  }
+  @media screen and (max-width: 700px) {
+    .nav-menu-item {
+      font-size: 15px;
+      margin-right: 10px;
+    }
+    .logo {
+      height: 70px;
+      padding-right: 10px;
+      margin-right: 0px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    .nav-menu-item {
+      font-size: 15px;
+      margin-right: 10px;
+    }
+    .logo {
+      height: 80px;
+      margin-bottom: 10px;
+    }
+    .nav-btns {
+      display: flex;
+      align-items: center;
+      margin-left: 5%;
+    }
+    .nav-inner-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
   }
 `;
