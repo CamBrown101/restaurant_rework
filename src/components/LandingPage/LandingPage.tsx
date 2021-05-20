@@ -10,7 +10,6 @@ const LandingPage = () => {
     <Wrapper>
       <TopSection />
       <About />
-      <MoreInformation />
       <Footer />
     </Wrapper>
   );
