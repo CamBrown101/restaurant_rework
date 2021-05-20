@@ -66,7 +66,7 @@ const ButtonContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  top: 24%;
+  top: 26%;
   width: 100%;
 `;
 
