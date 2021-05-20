@@ -25,8 +25,6 @@ const AboutContainer = styled.section`
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
-  color: black;
-  font-family: "", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,12 +65,23 @@ const AboutContainerInner = styled.div`
     font-weight: 700;
     line-height: 32px;
     font-size: 24px;
+    text-align: center;
   }
 
   .about-content {
     text-align: center;
     font-weight: 500;
     font-family: Josefin-sans, "sans-sarif";
+  }
+  @media screen and (max-width: 500px) {
+    .about-content {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    a {
+      font-size: 20px;
+      line-height: 20px;
+    }
   }
 `;
 
