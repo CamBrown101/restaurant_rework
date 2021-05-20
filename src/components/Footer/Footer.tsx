@@ -34,7 +34,7 @@ const Footer = () => {
 export default Footer;
 
 const FooterContainer = styled.footer`
-  background-color: black;
+  background-color: white;
   display: flex;
   justify-content: center;
 `;
@@ -44,8 +44,8 @@ const FooterWrapper = styled.div`
   padding-bottom: 70px;
   width: 90%;
   max-width: 1400px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   a,
   a:hover,
@@ -57,7 +57,7 @@ const FooterWrapper = styled.div`
 `;
 
 const TopFooterContainer = styled.div`
-  background: black;
+  background: white;
   padding-top: 20px;
   margin-left: 2%;
   display: flex;
@@ -74,7 +74,7 @@ const TopFooterContainer = styled.div`
       font-size: 30px;
       margin-top: 20px;
       margin-bottom: 2px;
-      color: white;
+      color: black;
     }
 
     .copyright {
