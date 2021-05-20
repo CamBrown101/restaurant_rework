@@ -63,6 +63,7 @@ const NavBarContainer = styled.div`
   width: 100%;
   top: 0;
   position: fixed;
+
   @media screen and (max-width: 500px) {
     flex-direction: column;
   }
@@ -123,7 +124,6 @@ const NavBarWrapper = styled.nav`
       font-size: 20px;
       margin-right: 15px;
     }
-    height: 80px;
     padding-right: 15px;
     margin-right: 20px;
   }
@@ -143,6 +143,7 @@ const NavBarWrapper = styled.nav`
     align-items: center;
     padding: 0;
     width: 100%;
+    padding-bottom: 10px;
     .nav-menu-item {
       font-size: 15px;
       margin-right: 10px;
