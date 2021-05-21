@@ -50,7 +50,7 @@ export default DrinkMenu;
 const DrinkMenuWrapper = styled.main`
   width: auto;
   height: 100%;
-  padding-top: 210px;
+  padding-top: 150px;
   display: flex;
   justify-content: center;
   align-items: center;

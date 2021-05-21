@@ -42,14 +42,12 @@ const SlideWrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 700px;
   width: 100%;
   color: white;
   background-color: white;
 
   img {
-    width: 300px;
-    height: auto;
+    width: 100%;
   }
 `;
 
@@ -57,16 +55,9 @@ type SlideProps = {
   imageUrl: string;
 };
 const SlideInnerWrapper: any = styled.div<SlideProps>`
-  background-image: url(${(props) => props.imageUrl});
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: top;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 60%;
+  width: 80%;
   height: 100%;
 `;
 
