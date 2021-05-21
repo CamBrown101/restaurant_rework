@@ -4,12 +4,12 @@ import About from "./LandingComponents/About";
 import Carousel from "../Carousel/CarouselLandingPage";
 import Footer from "../Footer/Footer";
 import styled from "styled-components";
-import carpaccioImage from "../../images/landingpageimages/RivaCarpaccio.png";
-import drinksImage from "../../images/landingpageimages/RivaDrinksPatio.png";
-import foccaciaImage from "../../images/landingpageimages/RivaFoccacia .png";
-import negroniImage from "../../images/landingpageimages/RivaNegroni.png";
-import saladImage from "../../images/landingpageimages/RivaSalad.png";
-import calamariImage from "../../images/landingpageimages/RivaCalamari.png";
+import carpaccioImage from "../../images/landingpageimages/RivaCarpaccio001.png";
+import drinksImage from "../../images/landingpageimages/RivaDrinksPatio001.png";
+import foccaciaImage from "../../images/landingpageimages/RivaFoccacia001.png";
+import negroniImage from "../../images/landingpageimages/RivaNegroni001.png";
+import saladImage from "../../images/landingpageimages/RivaSalad001.png";
+import calamariImage from "../../images/landingpageimages/RivaCalamari001.png";
 
 const carouselImages = [
   {
