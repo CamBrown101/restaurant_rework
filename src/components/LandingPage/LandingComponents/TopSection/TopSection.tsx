@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import bayView2 from "../../../../images/heroImage002.png";
+import bayView2 from "../../../../images/heroImage003.png";
 
 const HomePage = () => {
   return (
