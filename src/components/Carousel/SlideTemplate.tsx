@@ -28,7 +28,7 @@ const Slide = ({ slide, numberOfSlides, image, alt }: Props) => {
   return (
     <SlideWrapper>
       <SlideInnerWrapper>
-        <img src={image} />
+        <img src={image} alt="Riva's menu" />
       </SlideInnerWrapper>
       <CircleContainer>{createCircles(numberOfSlides, slide)}</CircleContainer>
     </SlideWrapper>
