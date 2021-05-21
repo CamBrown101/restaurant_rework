@@ -45,11 +45,6 @@ const SlideWrapper = styled.div`
   width: 100%;
   color: white;
   background-color: white;
-
-  img {
-    width: 100%;
-    margin-bottom: 30px;
-  }
 `;
 
 type SlideProps = {
@@ -60,6 +55,11 @@ const SlideInnerWrapper: any = styled.div<SlideProps>`
   flex-direction: column;
   width: 80%;
   height: 100%;
+  min-height: 422px;
+  img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 `;
 
 const CircleContainer = styled.div`
