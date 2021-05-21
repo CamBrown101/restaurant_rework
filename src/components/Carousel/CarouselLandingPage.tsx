@@ -78,7 +78,7 @@ const CarouselContainer = styled.div`
 `;
 
 const CarouselContainerInner = styled.div`
-  width: 90%;
+  width: 100%;
   max-width: 1400px;
   position: relative;
 `;
