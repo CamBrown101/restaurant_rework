@@ -112,5 +112,18 @@ const TopFooterContainer = styled.div`
     button:hover {
       background-color: #00a79d;
     }
+
+    @media screen and (max-width: 700px) {
+      margin-right: 50px;
+    }
+    @media screen and (max-width: 500px) {
+      button {
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+  }
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
   }
 `;

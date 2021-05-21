@@ -82,6 +82,10 @@ const AboutContainerInner = styled.div`
       font-size: 20px;
       line-height: 20px;
     }
+    button {
+      font-size: 20px;
+      line-height: 20px;
+    }
   }
 `;
 
