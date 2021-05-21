@@ -43,7 +43,7 @@ const LandingPage = () => {
     <Wrapper>
       <TopSection />
       <About />
-      <Carousel interval={10000} numberOfSlides={6} data={carouselImages} />
+      <Carousel interval={8000} numberOfSlides={6} data={carouselImages} />
       <Footer />
     </Wrapper>
   );
