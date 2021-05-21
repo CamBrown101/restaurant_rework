@@ -1,7 +1,6 @@
 import React from "react";
 import TopSection from "./LandingComponents/TopSection/TopSection";
 import About from "./LandingComponents/About";
-import MoreInformation from "./LandingComponents/MoreInformation";
 import Footer from "../Footer/Footer";
 import styled from "styled-components";
 
