@@ -23,8 +23,6 @@ const createCircles = (totalSlides: number, slideNumber: number) => {
 };
 
 const Slide = ({ slide, numberOfSlides, image, alt }: Props) => {
-  console.log(image);
-
   return (
     <SlideWrapper>
       <SlideInnerWrapper>
@@ -55,7 +53,6 @@ const SlideInnerWrapper: any = styled.div<SlideProps>`
   flex-direction: column;
   width: 80%;
   height: 100%;
-  min-height: 422px;
   img {
     width: 100%;
     margin-bottom: 30px;
