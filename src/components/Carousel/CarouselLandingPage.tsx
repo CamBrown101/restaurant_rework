@@ -68,6 +68,9 @@ const ButtonContainer = styled.div`
   position: absolute;
   top: 40%;
   width: 100%;
+  @media screen and (max-width: 500px) {
+    top: 90%;
+  }
 `;
 
 const CarouselContainer = styled.div`
