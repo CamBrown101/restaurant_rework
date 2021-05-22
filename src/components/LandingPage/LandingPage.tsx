@@ -10,6 +10,8 @@ import foccaciaImage from "../../images/landingpageimages/RivaFoccacia001.png";
 import negroniImage from "../../images/landingpageimages/RivaNegroni001.png";
 import saladImage from "../../images/landingpageimages/RivaSalad001.png";
 import calamariImage from "../../images/landingpageimages/RivaCalamari001.png";
+import SeafoodPastaImage from "../../images/landingpageimages/RivaSeafoodPasta.png";
+import ChickenPasta from "../../images/landingpageimages/RivaChickenPasta.png";
 
 const carouselImages = [
   {
@@ -36,6 +38,14 @@ const carouselImages = [
     imageUrl: calamariImage,
     altText: "Riva Calamari",
   },
+  {
+    imageUrl: SeafoodPastaImage,
+    altText: "Riva Seafood Pasta",
+  },
+  {
+    imageUrl: ChickenPasta,
+    altText: "Riva Chicken Pasta",
+  },
 ];
 
 const LandingPage = () => {
@@ -43,7 +53,11 @@ const LandingPage = () => {
     <Wrapper>
       <TopSection />
       <About />
-      <Carousel interval={8000} numberOfSlides={6} data={carouselImages} />
+      <Carousel
+        interval={8000}
+        numberOfSlides={carouselImages.length}
+        data={carouselImages}
+      />
       <Footer />
     </Wrapper>
   );
