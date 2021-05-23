@@ -158,6 +158,7 @@ const NavBarWrapper = styled.nav`
     padding: 0;
     width: 100%;
     padding-bottom: 10px;
+
     .nav-menu-item {
       font-size: 15px;
       margin-right: 10px;
@@ -208,9 +209,9 @@ const SocialIconWrapper = styled.div`
       height: 50%;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 580px) {
     .social-link {
-      height: 40%;
+      height: 60%;
     }
   }
 `;
