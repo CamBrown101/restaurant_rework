@@ -172,6 +172,10 @@ const SocialIconWrapper = styled.div`
 
   .social-icon {
     color: #00a79d;
+    transition: color 0.8s;
+  }
+  .social-icon:hover {
+    color: #b96140;
   }
 
   .social-link {
