@@ -139,6 +139,7 @@ const TopFooterContainer = styled.div`
       margin-right: 50px;
     }
     @media screen and (max-width: 500px) {
+      margin-right: 0;
       button {
         font-size: 20px;
         line-height: 20px;
@@ -147,6 +148,8 @@ const TopFooterContainer = styled.div`
   }
   @media screen and (max-width: 500px) {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
@@ -166,6 +169,7 @@ const SocialIconWrapper = styled.div`
     align-items: center;
     justify-content: center;
   }
+
   .mail {
     margin-left: 6px;
   }
