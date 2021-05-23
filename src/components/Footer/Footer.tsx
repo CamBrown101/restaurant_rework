@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import { Facebook } from "@styled-icons/entypo-social/Facebook";
+import { InstagramAlt } from "@styled-icons/boxicons-logos/InstagramAlt";
+import { Mail } from "@styled-icons/icomoon/Mail";
 import { Link } from "react-router-dom";
 
 const date = new Date();
@@ -25,6 +28,21 @@ const Footer = () => {
             <Link to="/View-Food-Menu">
               <button>View menu</button>
             </Link>
+            <SocialIconWrapper>
+              <a
+                className="social-link"
+                href="https://www.instagram.com/rivayyj/">
+                <InstagramIcon className="social-icon" />
+              </a>
+              <a
+                className="social-link"
+                href="https://www.facebook.com/Rivayyj/">
+                <FacebookIcon className="social-icon" />
+              </a>
+              <a className="social-link mail" href="mailto:info@rivasidney.ca">
+                <MailIcon className="social-icon" />
+              </a>
+            </SocialIconWrapper>
           </div>
         </TopFooterContainer>
       </FooterWrapper>
@@ -92,6 +110,10 @@ const TopFooterContainer = styled.div`
   }
   .site-links {
     margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 
     button {
       margin-bottom: 20px;
@@ -126,4 +148,35 @@ const TopFooterContainer = styled.div`
   @media screen and (max-width: 500px) {
     flex-direction: column;
   }
+`;
+
+const SocialIconWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  height: 70px;
+
+  .social-icon {
+    color: #00a79d;
+  }
+
+  .social-link {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mail {
+    margin-left: 6px;
+  }
+`;
+
+const InstagramIcon = styled(InstagramAlt)`
+  height: 100%;
+`;
+const FacebookIcon = styled(Facebook)`
+  height: 80%;
+`;
+const MailIcon = styled(Mail)`
+  height: 75%;
 `;
