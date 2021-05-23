@@ -216,15 +216,6 @@ const SocialIconWrapper = styled.div`
   }
 `;
 
-// const InstagramIcon = styled(InstagramAlt)`
-//   height: 100%;
-// `;
-// const FacebookIcon = styled(Facebook)`
-//   height: 80%;
-// `;
-// const MailIcon = styled(Mail)`
-//   height: 75%;
-// `;
 const InstagramIcon = styled(InstagramAlt)`
   height: 100%;
 `;
