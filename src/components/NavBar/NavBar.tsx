@@ -1,7 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import { Facebook } from "@styled-icons/entypo-social/Facebook";
+import { InstagramAlt } from "@styled-icons/boxicons-logos/InstagramAlt";
+import { Mail } from "@styled-icons/icomoon/Mail";
 import NavLogo from "../../images/Riva-Logo-Horizontal-FullColour.png";
+
 const NavBar = () => {
   return (
     <NavBarContainer>
@@ -49,6 +53,17 @@ const NavBar = () => {
             </NavLink>
           </div>
         </div>
+        <SocialIconWrapper>
+          <a className="social-link" href="https://www.instagram.com/rivayyj/">
+            <InstagramIcon className="social-icon" />
+          </a>
+          <a className="social-link" href="https://www.facebook.com/Rivayyj/">
+            <FacebookIcon className="social-icon" />
+          </a>
+          <a className="social-link mail" href="mailto:info@rivasidney.ca">
+            <MailIcon className="social-icon" />
+          </a>
+        </SocialIconWrapper>
       </NavBarWrapper>
     </NavBarContainer>
   );
@@ -163,4 +178,35 @@ const NavBarWrapper = styled.nav`
       justify-content: center;
     }
   }
+`;
+
+const SocialIconWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  height: 70px;
+
+  .social-icon {
+    color: #00a79d;
+  }
+
+  .social-link {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mail {
+    margin-left: 5px;
+  }
+`;
+
+const InstagramIcon = styled(InstagramAlt)`
+  height: 100%;
+`;
+const FacebookIcon = styled(Facebook)`
+  height: 80%;
+`;
+const MailIcon = styled(Mail)`
+  height: 75%;
 `;
