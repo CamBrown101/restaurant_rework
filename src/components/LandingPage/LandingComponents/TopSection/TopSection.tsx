@@ -22,10 +22,6 @@ const AboutContainer = styled.header`
   align-items: center;
 `;
 const AboutContainerInner = styled.div`
-  /* background-image: url(${bayView2});
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
   width: auto;
   display: flex;
   flex-direction: column;
