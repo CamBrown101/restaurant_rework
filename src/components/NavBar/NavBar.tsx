@@ -96,8 +96,7 @@ const NavBarWrapper = styled.nav`
 
   .logo {
     height: 90px;
-    padding-right: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   .nav-btns {
     display: flex;
@@ -134,7 +133,7 @@ const NavBarWrapper = styled.nav`
   .nav-menu-item:hover {
     color: #b96140;
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 975px) {
     .nav-menu-item {
       font-size: 20px;
       margin-right: 15px;
@@ -142,7 +141,7 @@ const NavBarWrapper = styled.nav`
     padding-right: 15px;
     margin-right: 20px;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 770px) {
     .nav-menu-item {
       font-size: 15px;
       margin-right: 10px;
@@ -153,7 +152,7 @@ const NavBarWrapper = styled.nav`
       margin-right: 0px;
     }
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 580px) {
     flex-direction: column;
     align-items: center;
     padding: 0;
@@ -191,16 +190,40 @@ const SocialIconWrapper = styled.div`
   }
 
   .social-link {
-    height: 50%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .mail {
-    margin-left: 5px;
+    margin-left: 6px;
+  }
+  @media screen and (max-width: 1100px) {
+    .social-link {
+      height: 60%;
+    }
+  }
+  @media screen and (max-width: 1035px) {
+    .social-link {
+      height: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .social-link {
+      height: 40%;
+    }
   }
 `;
 
+// const InstagramIcon = styled(InstagramAlt)`
+//   height: 100%;
+// `;
+// const FacebookIcon = styled(Facebook)`
+//   height: 80%;
+// `;
+// const MailIcon = styled(Mail)`
+//   height: 75%;
+// `;
 const InstagramIcon = styled(InstagramAlt)`
   height: 100%;
 `;
