@@ -14,7 +14,12 @@ const Footer = () => {
         <TopFooterContainer>
           <div className="contact">
             <h3>Address</h3>
-            <p className="adress">2537 Beacon Ave W #107, Sidney, BC V8L 1Y3</p>
+            <a className="adress" href="https://g.page/Rivayyj?share">
+              2537 Beacon Ave W #107, Sidney, BC V8L 1Y3
+            </a>
+            <a className="email" href="mailto:mailto:info@rivasidney.ca">
+              Email - info@rivasidney.ca
+            </a>
             <a className="phone" href="tel:+1-250-656-6690">
               Phone Number - (250) 656-6690
             </a>
@@ -101,11 +106,17 @@ const TopFooterContainer = styled.div`
       margin-top: 20px;
     }
     .adress,
+    .email,
     .phone,
     .hours {
       font-size: 20px;
       font-family: Josefin-sans, "sans-sarif";
       margin: 2px;
+    }
+    .adress:hover,
+    .email:hover,
+    .phone:hover {
+      color: #00a79d;
     }
   }
   .site-links {
