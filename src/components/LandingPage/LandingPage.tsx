@@ -4,14 +4,14 @@ import About from "./LandingComponents/About";
 import Carousel from "../Carousel/CarouselLandingPage";
 import Footer from "../Footer/Footer";
 import styled from "styled-components";
-import carpaccioImage from "../../images/landingpageimages/RivaCarpaccio001.png";
-import drinksImage from "../../images/landingpageimages/RivaDrinksPatio001.png";
-import foccaciaImage from "../../images/landingpageimages/RivaFoccacia001.png";
-import negroniImage from "../../images/landingpageimages/RivaNegroni001.png";
-import saladImage from "../../images/landingpageimages/RivaSalad001.png";
-import calamariImage from "../../images/landingpageimages/RivaCalamari001.png";
-import SeafoodPastaImage from "../../images/landingpageimages/RivaSeafoodPasta.png";
-import ChickenPasta from "../../images/landingpageimages/RivaChickenPasta.png";
+import carpaccioImage from "../../images/landingpageimages/RivaCarpaccio001.jpg";
+import drinksImage from "../../images/landingpageimages/RivaDrinksPatio001.jpg";
+import foccaciaImage from "../../images/landingpageimages/RivaFoccacia001.jpg";
+import negroniImage from "../../images/landingpageimages/RivaNegroni001.jpg";
+import saladImage from "../../images/landingpageimages/RivaSalad001.jpg";
+import calamariImage from "../../images/landingpageimages/RivaCalamari001.jpg";
+import SeafoodPastaImage from "../../images/landingpageimages/RivaSeafoodPasta.jpg";
+import ChickenPasta from "../../images/landingpageimages/RivaChickenPasta.jpg";
 
 const carouselImages = [
   {
