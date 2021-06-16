@@ -11,6 +11,7 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import FoodMenu from "./components/Menu/FoodMenu";
 import DrinkMenu from "./components/Menu/DrinkMenu";
 import ComingSoon from "./components/ComingSoon";
+import Reservations from "./components/Reservations";
 
 function _ScrollToTop(props: any) {
   const { pathname } = useLocation();
@@ -29,7 +30,7 @@ function App() {
           <Route path="/" exact component={LandingPage} />
           <Route path="/View-Food-Menu" exact component={FoodMenu} />
           <Route path="/View-Drink-Menu" exact component={DrinkMenu} />
-          <Route path="/Reservations" exact component={ComingSoon} />
+          <Route path="/Reservations" exact component={Reservations} />
           <Route path="/Order-Online" exact component={ComingSoon} />
         </Switch>
       </ScrollToTop>
