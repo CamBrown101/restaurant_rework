@@ -5,7 +5,9 @@ const Reservations = () => {
   return (
     <ReservationsContainer>
       <ReservationsContainerInner>
-        <p>Coming Soon</p>
+        <iframe
+          className="reservation-window"
+          src="https://www.opentable.ca/r/riva-reservations-sidney?restref=324484&lang=en-CA&ot_source=Restaurant%20website"></iframe>
       </ReservationsContainerInner>
     </ReservationsContainer>
   );
@@ -19,20 +21,18 @@ const ReservationsContainer = styled.header`
   align-items: center;
 `;
 const ReservationsContainerInner = styled.div`
-  width: 100%;
+  width: 75%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  p {
-    color: #b96140;
-    font-family: "Montecatini Pro Normale", sans-serif;
-    font-weight: 900;
-    font-size: 50px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  .reservation-window {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    border: none;
   }
 `;
 
