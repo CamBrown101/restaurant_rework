@@ -19,36 +19,41 @@ const NavBar = () => {
               className="nav-menu-item"
               id="nav-menu-view-food"
               exact
-              to="/View-Food-Menu">
+              to="/View-Food-Menu"
+            >
               Food
             </NavLink>
             <NavLink
               className="nav-menu-item"
               id="nav-menu-view-drink"
               exact
-              to="/View-Drink-Menu">
+              to="/View-Drink-Menu"
+            >
               Drink
             </NavLink>
             <NavLink
               className="nav-menu-item"
               id="reservations"
               exact
-              to="/Reservations">
+              to="/Reservations"
+            >
               Reservations
             </NavLink>
             <NavLink
               className="nav-menu-item"
               id="order-online"
               exact
-              to="/Order-Online">
+              to="/Order-Online"
+            >
               Order Online
             </NavLink>
             <NavLink
               className="nav-menu-item"
               id="takeout-menu"
-              to="Riva-Menu-Takeout.pdf"
+              to="Riva-Menu-Takeout_002.pdf"
               target="_blank"
-              download>
+              download
+            >
               Takeout Menu
             </NavLink>
           </div>
