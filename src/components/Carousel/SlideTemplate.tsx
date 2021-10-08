@@ -59,6 +59,9 @@ const SlideInnerWrapper: any = styled.div<SlideProps>`
   flex-direction: column;
   width: 80%;
   height: 100%;
+  @media screen and (max-width: 700px) {
+    margin-top: 25%;
+  }
 `;
 
 const CircleContainer = styled.div`
