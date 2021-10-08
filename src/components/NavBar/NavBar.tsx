@@ -50,7 +50,7 @@ const NavBar = () => {
             <NavLink
               className="nav-menu-item"
               id="takeout-menu"
-              to="/menus/Riva-Menu-Takeout-00.pdf"
+              to="Riva-Menu-Takeout.pdf"
               target="_blank"
               download
             >
