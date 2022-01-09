@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import React from "react";
 import ComingSoon from "../ComingSoon";
 // import Carousel from "../Carousel/Carousel";
 // import FoodMenu1 from "../../images/menus/Riva-Menu-Food1.png";
@@ -22,31 +23,31 @@ import ComingSoon from "../ComingSoon";
 
 const FoodMenu = () => {
   return (
-    <FoodMenuWrapper>
-      <FoodMenuContainerInner>
-        <ComingSoon />
-        {/* <Carousel interval={10000} numberOfSlides={3} data={slideData} /> */}
-      </FoodMenuContainerInner>
-    </FoodMenuWrapper>
+    // <FoodMenuWrapper>
+    //   <FoodMenuContainerInner>
+    <ComingSoon message="New Menu Coming Soon" />
+    //     <Carousel interval={10000} numberOfSlides={3} data={slideData} />
+    //   </FoodMenuContainerInner>
+    // </FoodMenuWrapper>
   );
 };
 
 export default FoodMenu;
 
-const FoodMenuWrapper = styled.main`
-  width: auto;
-  height: 100%;
-  padding-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-`;
+// const FoodMenuWrapper = styled.main`
+//   width: auto;
+//   height: 100%;
+//   padding-top: 100px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: white;
+// `;
 
-const FoodMenuContainerInner = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
+// const FoodMenuContainerInner = styled.div`
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// `;

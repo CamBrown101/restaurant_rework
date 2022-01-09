@@ -1,11 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 
-const ComingSoon = () => {
+type Props = {
+  message: string;
+};
+
+const ComingSoon = ({ message }: Props) => {
+  if (!message) {
+    message = "Coming Soon";
+  }
   return (
     <ComingSoonContainer>
       <ComingSoonContainerInner>
-        <p>Coming Soon</p>
+        <p>{message}</p>
       </ComingSoonContainerInner>
     </ComingSoonContainer>
   );

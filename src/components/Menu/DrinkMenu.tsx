@@ -38,39 +38,32 @@ import drinkMenu6 from "../../images/menus/Riva-Menu-Wine4.png";
 
 const DrinkMenu = () => {
   return (
-    <DrinkMenuWrapper>
-      <DrinkMenuContainerInner>
-        <ComingSoon />
-        {/* <Carousel interval={10000} numberOfSlides={6} data={slideData} /> */}
-      </DrinkMenuContainerInner>
-    </DrinkMenuWrapper>
+    // <DrinkMenuWrapper>
+    //   <DrinkMenuContainerInner>
+    <ComingSoon message="New Menu Coming Soon" />
+    //     <Carousel interval={10000} numberOfSlides={6} data={slideData} />
+    //   </DrinkMenuContainerInner>
+    // </DrinkMenuWrapper>
   );
 };
 
 export default DrinkMenu;
 
-const DrinkMenuWrapper = styled.main`
-  width: auto;
-  height: 100%;
-  padding-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-`;
+// const DrinkMenuWrapper = styled.main`
+//   width: auto;
+//   height: 100%;
+//   padding-top: 100px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: white;
+// `;
 
-const DrinkMenuContainerInner = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-const NewMenuComingSoon = styled.h1`
-  font-family: "Montecatini Pro Normale", sans-serif;
-  margin-top: 50px;
-  color: #b96140;
-  font-size: 5rem;
-`;
+// const DrinkMenuContainerInner = styled.div`
+//   width: 100%;
+//   height: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// `;
