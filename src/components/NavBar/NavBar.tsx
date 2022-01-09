@@ -47,7 +47,7 @@ const NavBar = () => {
             >
               Order Online
             </NavLink>
-            <NavLink
+            {/* <NavLink
               className="nav-menu-item"
               id="takeout-menu"
               to="Riva-Menu-Takeout.pdf"
@@ -55,7 +55,7 @@ const NavBar = () => {
               download
             >
               Takeout Menu
-            </NavLink>
+            </NavLink> */}
           </div>
         </div>
         <SocialIconWrapper>

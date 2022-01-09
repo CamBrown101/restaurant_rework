@@ -1,30 +1,31 @@
-import React from "react";
 import styled from "styled-components";
-import Carousel from "../Carousel/Carousel";
-import FoodMenu1 from "../../images/menus/Riva-Menu-Food1.png";
-import FoodMenu2 from "../../images/menus/Riva-Menu-Food2.png";
-import FoodMenu3 from "../../images/menus/Riva-Menu-Dessert.png";
+import ComingSoon from "../ComingSoon";
+// import Carousel from "../Carousel/Carousel";
+// import FoodMenu1 from "../../images/menus/Riva-Menu-Food1.png";
+// import FoodMenu2 from "../../images/menus/Riva-Menu-Food2.png";
+// import FoodMenu3 from "../../images/menus/Riva-Menu-Dessert.png";
 
-const slideData = [
-  {
-    imageUrl: FoodMenu1,
-    altText: "Riva food menu",
-  },
-  {
-    imageUrl: FoodMenu2,
-    altText: "Riva food menu",
-  },
-  {
-    imageUrl: FoodMenu3,
-    altText: "Riva food menu",
-  },
-];
+// const slideData = [
+//   {
+//     imageUrl: FoodMenu1,
+//     altText: "Riva food menu",
+//   },
+//   {
+//     imageUrl: FoodMenu2,
+//     altText: "Riva food menu",
+//   },
+//   {
+//     imageUrl: FoodMenu3,
+//     altText: "Riva food menu",
+//   },
+// ];
 
 const FoodMenu = () => {
   return (
     <FoodMenuWrapper>
       <FoodMenuContainerInner>
-        <Carousel interval={10000} numberOfSlides={3} data={slideData} />
+        <ComingSoon />
+        {/* <Carousel interval={10000} numberOfSlides={3} data={slideData} /> */}
       </FoodMenuContainerInner>
     </FoodMenuWrapper>
   );
